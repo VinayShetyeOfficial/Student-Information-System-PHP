@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+/* Style for index.html (HOME) */
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+/* Hide number field Spinner Buttons */
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+form input[type=number] {
+    -moz-appearance: textfield !important;
+}
+
+/* Display error message for input fields  */
+form .form-outline .error {
+    position: absolute;
+    /* border: 1px solid black; */
+    /*display: block;
+    */
+    top: 100%;
+    right: -100%;
+    width: 100%;
+    transform: translateX(-100%);
+    color: red;
+    font-size: 13px;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+}
+
+form .form-outline .fas {
+    font-size: 13px !important;
+}
+
+
+/* Style for Nav Title  */
+section nav .nav_title {
+    font-family: 'Russo One', sans-serif;
+    display: none;
+}
+
+
+
+/* Media Queries  */
+@media only screen and (max-width: 992px) {
+    section nav .nav_title {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 436px){
+    .nav-item .breadcrumb li{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #d8dde0;
+    }
+
+    .nav-item .breadcrumb li:last-child{
+        border-bottom: none;
+    }
+
+    .breadcrumb-item{
+        padding-left: var(--mdb-breadcrumb-item-padding-x);
+    }
+    .breadcrumb-item+.breadcrumb-item:before {
+        float: left;
+        padding-right: var(--mdb-breadcrumb-item-padding-x);
+        color: var(--mdb-breadcrumb-divider-color);
+        content: var(--mdb-breadcrumb-divider,"") !important;
+    }
+}
+

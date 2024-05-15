@@ -1,34 +1,84 @@
-<h1>🚀 Student Information System 🚀</h1>
-    <p>This project demonstrates CRUD (Create, Read, Update, Delete) operations in PHP using a beautifully crafted student information system. The user interfaces have been designed using HTML5, CSS3, and BOOTSTRAP 5.</p>
-    <h2>User Friendly🤝 Pages</h2>
-    <ul>
-        <li>
-            <h3>Student Registration Form Page</h3>
-            <p>This page allows users to register by providing their first name, last name, father's name, mother's name, gender (male, female, others), date of birth, email address, address, pincode, state, city, password, and confirm password. The city options are shown based on the state selected.</p>
-            <div class="note">Note: The City options are shown based on state selected</div>
-        </li>
-        <li>
-            <h3>Login Form Page</h3>
-            <p>This page allows users to login by providing their email address and password. Proper authentication is implemented to ensure secure access.</p>
-        </li>
-        <li>
-            <h3>My Profile Page</h3>
-            <p>This page displays the user's profile picture, personal information, contact information, and social media links. The user can update their profile picture and social media links on this page, and there is an update button that takes them to the Update page.<>
-         </li>
-          <li>
-            <h3>Update page</h3>
-            <p>This page allows users to update their personal information as provided in the registration form. The page also displays their profile picture, and under it, there is a delete profile button that allows users to delete their account.</p>
-           </li>
-           <li>
-            <h3>Students page</h3>
-            <p>This page displays cards of all the registered students, with their profile picture and a view profile button that displays the information of the selected student. The viewer of the profile cannot edit the data of other students, ensuring the privacy and security of their information.</p>
-           </li>
-           <li>
-            <h3>View page</h3>
-            <p>This page displays the information of the selected student from the Students page. The information displayed is the same as on the My Profile page, with the addition of a connect button and a message button. The connect button allows users to send an email to the selected student, and the message button, which is not yet implemented, allows users to message the selected student.</p>
-           </li>
-           <li>
-            <p>Lastly, the Logout button destroys the session and takes the user back to the login page, ensuring the safety and security of their account.</p>
-           </li>
-            </ul><br>
-           <p><strong>All in all</strong> the Student Information System is a comprehensive and user-friendly application that allows users to easily navigate and interact with the system. Its visually stunning interface and responsive design make it easy for users to manage their personal information and view the information of other students. The application is a great tool for educational institutions and other organizations that need to manage student information.</p>
+# Student Information System 
+
+### Registration
+![Registration](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/36df7c24-fad1-46f5-8629-70b004cd6cdd)
+
+### Login
+![User Login](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/810ae0d0-fe06-4c2c-ad24-bbce9696ff33)
+
+### Student Dashboard
+![User Dashboard](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/23ea8e17-3e6c-49ed-8818-0cca501028c8)
+
+### Student Profiles
+![List Of Students](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/b26f187e-db75-4a48-b5af-9ce58392a6d4)
+
+### View Student Profile
+![View Student Profile](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/7b46731f-4271-473d-b472-20b03168f0a6)
+
+
+### Links
+Live Site URL: [Preview](http://student-information-system53.infinityfreeapp.com/index.php)
+
+### Description
+The Student Information System (SIS) is a web application developed using HTML5, CSS3, PHP, Bootstrap, and MySQL database providing a comprehensive solution for managing student information in an educational institution.
+
+## Features
+
+- **User Registration and Login:**
+  - Users can register and log in to the system.
+  - Once logged in, students are directed to their dashboard.
+
+- **Student Dashboard:**
+  - Displays student details such as name, ID, and email.
+  - Allows editing of personal information, including profile picture.
+  - Provides options to update profile and upload a new picture.
+  - Includes a delete profile button.
+
+- **Navigation Bar:**
+  - Every page has a navigation bar with the following links:
+    - My Profile
+    - Update
+    - Students
+    - Register New
+
+- **Students Page:**
+  - Displays a list of registered students along with their profile pictures.
+  - Each student's details include name, ID, and email.
+  - A "View Profile" button allows viewing detailed information.
+
+- **View Profile:**
+  - Detailed dashboard for each student:
+    - Personal Info/Contact Info
+    - Blogpost + Github + Twitter + Instagram + Facebook links (editable)
+    - Connect button
+    - Message button
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- PHP
+- Bootstrap
+- MySQL database
+
+## Installation
+
+1. Clone this repository to your local machine using:
+  ```bash
+  git clone https://github.com/VinayShetyeOfficial/Student-Information-System-PHP.git
+  ```
+
+1. **Use XAMPP Control Panel (to use local server)**
+   - Link to download [here](https://www.apachefriends.org/download.html)
+   - Then launch XAMPP Control Panel => Start (Apache + MySQL server)
+   - Use MySQL Admin panel, create `crud_db` database and import the database files.
+
+2. **To launch the site locally in your web browser:**
+   - Use the Link [http://localhost/Student-Information-System/register.php](http://localhost/Student-Information-System/register.php)
+
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is open-source and available for anyone to explore, learn from, and contribute to.
+Feel free to customize the content and structure according to your preferences. <br><br> Happy coding! 😊

@@ -3,7 +3,7 @@
 ### Registration 
 ![Registration](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/36df7c24-fad1-46f5-8629-70b004cd6cdd)
  
-### Login
+### Login 
 ![User Login](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/810ae0d0-fe06-4c2c-ad24-bbce9696ff33)
 
 ### Student Dashboard

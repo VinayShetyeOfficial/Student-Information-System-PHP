@@ -1,6 +1,6 @@
 # Student Information System  
    
-### Registration   
+### Registration    
 ![Registration](https://github.com/VinayShetyeOfficial/Student-Information-System-PHP/assets/100470361/36df7c24-fad1-46f5-8629-70b004cd6cdd)   
    
 ### Login   
